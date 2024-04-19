@@ -42,7 +42,7 @@ func GetAvail(privateKey *ecdsa.PrivateKey) {
 	const urlLogin = "https://claim-api.availproject.org/check-rewards"
 
 	// Define the Infura RPC endpoint
-	const RPC = "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+	// const RPC = "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"
 
 	// Create an Ethereum client
 	// client, err := ethclient.Dial(RPC)
